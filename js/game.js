@@ -84,10 +84,10 @@ class Game{
       fruitGroup.add(fruits);
     }
     }
-    //if (fruitGroup.isTouching(player1 || player2 in players)){
+    if (fruitGroup.isTouching(player1 || player2 in players)){
       //fill code here, to destroy the objects.
-      //fruitGroup.destroyEach();
-    //}
+      fruitGroup.destroyEach();
+    }
   }
   end(){
     console.log("Game Ended");
